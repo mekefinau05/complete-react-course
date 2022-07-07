@@ -1,10 +1,13 @@
 'use strict';
 
+console.log('App dot js is running');
+
+// JSX
 var template = React.createElement(
-  'p',
+  'h1',
   null,
-  'This is JSX from App js!'
+  'Indecision App'
 );
 var appRoot = document.getElementById('app');
 
-ReactDom.render(template, appRoot);
+ReactDOM.render(template, appRoot);
