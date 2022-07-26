@@ -2,15 +2,16 @@ console.log('App dot js is running');
 
 // JSX
 
-let temp = {
+let app = {
   title: 'Indecision App',
   subTitle: 'This is the subtitle for the Indecision App course',
+  options: ['One', 'Two'],
 };
 
 let template = (
   <div>
-    <h1>{temp.title}</h1>
-    <p>{temp.subTitle}</p>
+    <h1>{app.title}</h1>
+    <p>{app.subTitle}</p>
     <ol>
       <li>Item one</li>
       <li>Item two</li>

@@ -4,9 +4,10 @@ console.log('App dot js is running');
 
 // JSX
 
-var temp = {
+var app = {
   title: 'Indecision App',
-  subTitle: 'This is the subtitle for the Indecision App course'
+  subTitle: 'This is the subtitle for the Indecision App course',
+  options: ['One', 'Two']
 };
 
 var template = React.createElement(
@@ -15,12 +16,12 @@ var template = React.createElement(
   React.createElement(
     'h1',
     null,
-    temp.title
+    app.title
   ),
   React.createElement(
     'p',
     null,
-    temp.subTitle
+    app.subTitle
   ),
   React.createElement(
     'ol',
